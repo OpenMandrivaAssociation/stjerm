@@ -32,3 +32,10 @@ such as Compiz.
 %{_bindir}/%{name}
 %{_mandir}/man8/stjerm.8*
 
+
+
+%changelog
+* Thu May 24 2012 Matthew Dawkins <mattydaw@mandriva.org> 0.14-1
++ Revision: 800453
+- imported package stjerm
+
