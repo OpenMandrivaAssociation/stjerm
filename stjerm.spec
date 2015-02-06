@@ -1,7 +1,7 @@
 Summary:	A GTK+-based drop-down terminal emulator
 Name:		stjerm
 Version:	0.14
-Release:	1
+Release:	2
 Group:		Terminals	
 License:	GPLv2
 URL:		http://code.google.com/p/stjerm-terminal-emulator/
