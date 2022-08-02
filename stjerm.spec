@@ -1,11 +1,11 @@
 Summary:	A GTK+-based drop-down terminal emulator
 Name:		stjerm
-Version:	0.14
-Release:	2
+Version:	0.18
+Release:	1
 Group:		Terminals	
 License:	GPLv2
 URL:		http://code.google.com/p/stjerm-terminal-emulator/
-Source0:	http://stjerm-terminal-emulator.googlecode.com/files/%{name}-%{version}.tar.xz
+Source0:	https://github.com/stjerm/stjerm/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(vte)
@@ -21,11 +21,11 @@ such as Compiz.
 %setup -q
 
 %build
-%configure2_5x
-%make
+%configure
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc AUTHORS COPYING ChangeLog README TODO NEWS
