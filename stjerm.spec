@@ -8,7 +8,8 @@ URL:		http://code.google.com/p/stjerm-terminal-emulator/
 Source0:	https://github.com/stjerm/stjerm/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(gtk+-2.0)
-BuildRequires:	pkgconfig(vte)
+#BuildRequires:	pkgconfig(vte2)
+BuildRequires:  pkgconfig(vte-2.91)
 BuildRequires:  pkgconfig(xinerama)
 
 %description
@@ -30,7 +31,7 @@ such as Compiz.
 %make_install
 
 %files
-%doc AUTHORS COPYING ChangeLog README TODO NEWS
+%doc AUTHORS COPYING
 %{_bindir}/%{name}
 %{_mandir}/man8/stjerm.8*
 
