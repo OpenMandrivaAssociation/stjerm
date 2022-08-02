@@ -9,6 +9,7 @@ Source0:	https://github.com/stjerm/stjerm/archive/refs/tags/v%{version}/%{name}-
 
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(vte)
+BuildRequires:  pkgconfig(xinerama)
 
 %description
 Stjerm is a GTK+-based drop-down terminal emulator similar to the consoles used
