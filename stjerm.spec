@@ -21,6 +21,7 @@ such as Compiz.
 %setup -q
 
 %build
+./autogen.sh
 %configure
 %make_build
 
