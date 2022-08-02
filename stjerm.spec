@@ -8,7 +8,7 @@ URL:		http://code.google.com/p/stjerm-terminal-emulator/
 Source0:	https://github.com/stjerm/stjerm/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(gtk+-2.0)
-BuildRequires:	pkgconfig(vte2)
+BuildRequires:	pkgconfig(vte)
 BuildRequires:  pkgconfig(xinerama)
 
 %description
