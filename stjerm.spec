@@ -4,7 +4,7 @@ Version:	0.18
 Release:	1
 Group:		Terminals	
 License:	GPLv2
-URL:		http://code.google.com/p/stjerm-terminal-emulator/
+URL:		https://code.google.com/p/stjerm-terminal-emulator/
 Source0:	https://github.com/stjerm/stjerm/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(gtk+-2.0)
