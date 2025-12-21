@@ -7,6 +7,11 @@ License:	GPLv2
 URL:		https://code.google.com/p/stjerm-terminal-emulator/
 Source0:	https://github.com/stjerm/stjerm/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(vte)
 BuildRequires:  pkgconfig(xinerama)
